@@ -72,7 +72,7 @@ Osepp_PROX_01 prox1(0x20, &Wire);
 ```
 
 ### Toggle the IR LED
-The member functions `turnIRLEDOff()` and `turnIRLEDOff()` are available.
+The member functions `turnIRLEDOn()` and `turnIRLEDOff()` are available.
 
 This is probably only worth doing if you are using the IR LED in this module as a general purpose IR LED, or if you wish to conserve as much power as possible when the module is not in use.
 
