@@ -11,7 +11,7 @@ Osepp_PROX_01::Osepp_PROX_01(int address, TwoWire *wire)
 {
   _address = address;
   _wire = wire;
-  _IR_LED_state = true;
+  _IR_LED_state = false;
   _selected_register = PCA9534_REGISTER_WRITE;
 }
 
