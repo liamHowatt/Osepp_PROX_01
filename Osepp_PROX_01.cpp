@@ -20,7 +20,7 @@ void Osepp_PROX_01::begin()
   _wire->begin();
 
   // talk to i2c IC of distance sensor module
-  // slave address 0x20
+  // slave address
   _wire->beginTransmission(_address);
   // select register 3 (configuration register)
   _wire->write(PCA9534_REGISTER_CONFIG);
